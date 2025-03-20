@@ -1,10 +1,9 @@
 from pyspark.sql import functions as F
 from pyspark.sql.window import Window
-import matplotlib.pyplot as plt
-import seaborn as sns
+
 import pandas as pd
-import numpy as np
-from typing import Dict, Any, List
+
+from typing import Dict, Any
 import logging
 import pickle
 
